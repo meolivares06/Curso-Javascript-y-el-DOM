@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,42 +10,59 @@
     <link rel="stylesheet" href="bootstrap.css">
 
     <title>Hello, world!</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <span class="navbar-brand">&lt;mario_olivares/></span>
-      </nav>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <span class="navbar-brand">&lt;mario_olivares/></span>
+        </nav>
     </header>
 
     <main class="container mt-2">
-      <section class="row jumbo">
-        <div class="col jumbotron jumbotron-fluid p-4">
-          
-            <h1 class="display-4 jumbo__title">Titulo</h1>
-            <p class="lead jumbo__description" >Esto es una breve descripcion del objetivo del sitio, curso javscript DOM.</p>
-        </div>
-      </section>
-      <section class="row list">
-        <ul class="col list-group">
-          <li class="list-group-item">Javascript</li>
-          <li class="list-group-item">CSS3</li>
-          <li class="list-group-item">HTML5</li>
-          <li class="list-group-item">RWD</li>
-          <li class="list-group-item">PHP</li>
-          <li class="list-group-item">Angular</li>
-          <li class="list-group-item">ReactJS</li>
-        </ul>
-      </section>  
+        <section class="row jumbo">
+            <div class="col jumbotron jumbotron-fluid p-4">
+
+                <h1 class="display-4 jumbo__title">Titulo</h1>
+                <p class="lead jumbo__description">Esto es una breve descripcion del objetivo del sitio, curso javscript DOM.</p>
+            </div>
+        </section>
+        <section class="row mb-5">
+            <form id="course-form">
+                <div class="form-group">
+                    <input type="text" name="title" id="title" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" required name="description" id="description" class="form-control">
+                    <small id="descriptionHelp" class="form-text text-muted">
+                      Escribe una breve descripcion
+                    </small>
+                </div>
+
+                <button type="submit" id="create-course" class="btn btn-primary">Crear curso</button>
+            </form>
+        </section>
+        <section class="row list">
+            <ul class="col list-group">
+                <li class="list-group-item">Javascript</li>
+                <li class="list-group-item">CSS3</li>
+                <li class="list-group-item">HTML5</li>
+                <li class="list-group-item">RWD</li>
+                <li class="list-group-item">PHP</li>
+                <li class="list-group-item">Angular</li>
+                <li class="list-group-item">ReactJS</li>
+            </ul>
+        </section>
     </main>
 
     <footer class="text-muted container mt-4">
-      <div class="col">
-      <p>LinkedIn</p>
-      <p>Twitter</p>
-      </div>
+        <div class="col">
+            <p>LinkedIn</p>
+            <p>Twitter</p>
+        </div>
     </footer>
 
     <script type="text/javascript" src="app.js"></script>
-  </body>
+</body>
+
 </html>
