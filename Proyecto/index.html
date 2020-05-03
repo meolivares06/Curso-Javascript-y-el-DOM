@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+
+    <title>Mi catálogo de películas</title>
+</head>
+
+<body>
+    <!-- Mostrar Jumbotron con nombre y descripcion del sitio -->
+    <header class="app-header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary app-nav">
+            <a href="" class="navbar-brand">Mi catalogo de peliculas</a>
+            <button class="btn btn-outline-light my-2 my-sm-0 btn-add-movie" type="button">
+                    Agregar pelicula
+                </button>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row d-none">
+            <div class="container jumbotron">
+                <form class="mr-auto">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Titulo</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="mi movie" />
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Description</label
+                            >
+                            <textarea
+                                class="form-control"
+                                id="exampleFormControlTextarea1"
+                                rows="3"
+                            ></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-dark">
+                                Agregar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Listado de peliculas y formulario para agregar una -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img
+                            class=" card-img-top"
+                            width="100%"
+                            height="225"
+                            src="img/El Gato Detective [2019] [HD].jpg"
+                            preserveaspectratio="xMidYMid slice"
+                            focusable="false"
+                            role="img"
+                            aria-label="Placeholder: Thumbnail"
+                        />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Pukuota Snipe: PUS</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                2017 Animados 1h 20m
+                            </h6>
+                            <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                            </p>
+                            <div
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <div class="btn-group">
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        View
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Edit
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Delete
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm text-muted small">
+                                    9 views +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img
+                            class=" card-img-top"
+                            width="100%"
+                            height="225"
+                            src="img/El Rey León 2 El Tesoro De Simba (1998).jpg"
+                            preserveaspectratio="xMidYMid slice"
+                            focusable="false"
+                            role="img"
+                            aria-label="Placeholder: Thumbnail"
+                        />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Pukuota Snipe</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                2017 Animados 1h 20m
+                            </h6>
+                            <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                            </p>
+                            <div
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <div class="btn-group">
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        View
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Edit
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Delete
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm text-muted small">
+                                    9 views +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card mb-4 shadow-sm">
+                            <img
+                                class=" card-img-top"
+                                width="100%"
+                                height="225"
+                                src="img/El Rey León 3 Hakuna Matata (2004).jpg"
+                                preserveaspectratio="xMidYMid slice"
+                                focusable="false"
+                                role="img"
+                                aria-label="Placeholder: Thumbnail"
+                            />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Pukuota Snipe</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    2017 Animados 1h 20m
+                                </h6>
+                                <p class="card-text">
+                                    This is a wider card with supporting text
+                                    below as a natural lead-in to additional
+                                    content. This content is a little bit
+                                    longer.
+                                </p>
+                                <div
+                                    class="d-flex justify-content-between align-items-center"
+                                >
+                                    <div class="btn-group">
+                                        <button
+                                            type="button"
+                                            class="btn btn-sm btn-outline-secondary"
+                                        >
+                                            View
+                                        </button>
+                                        <button
+                                            type="button"
+                                            class="btn btn-sm btn-outline-secondary"
+                                        >
+                                            Edit
+                                        </button>
+                                        <button
+                                            type="button"
+                                            class="btn btn-sm btn-outline-secondary"
+                                        >
+                                            Delete
+                                        </button>
+                                    </div>
+                                    <button class="btn btn-sm text-muted small">
+                                        9 views +
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img
+                            class=" card-img-top"
+                            width="100%"
+                            height="225"
+                            src="img/Ferdinand [2017] [HD].jpg"
+                            preserveaspectratio="xMidYMid slice"
+                            focusable="false"
+                            role="img"
+                            aria-label="Placeholder: Thumbnail"
+                        />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Pukuota Snipe</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                2017 Animados 1h 20m
+                            </h6>
+                            <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                            </p>
+                            <div
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <div class="btn-group">
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        View
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Edit
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Delete
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm text-muted small">
+                                    9 views +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img
+                            class=" card-img-top"
+                            width="100%"
+                            height="225"
+                            src="img/La Princesa Cisne Un misterio Real [2018].jpg"
+                            preserveaspectratio="xMidYMid slice"
+                            focusable="false"
+                            role="img"
+                            aria-label="Placeholder: Thumbnail"
+                        />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Pukuota Snipe</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                2017 Animados 1h 20m
+                            </h6>
+                            <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                            </p>
+                            <div
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <div class="btn-group">
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        View
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Edit
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Delete
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm text-muted small">
+                                    9 views +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img
+                            class=" card-img-top"
+                            width="100%"
+                            height="225"
+                            src="img/Ocean’s 8 Las estafadoras (2018).jpg"
+                            preserveaspectratio="xMidYMid slice"
+                            focusable="false"
+                            role="img"
+                            aria-label="Placeholder: Thumbnail"
+                        />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Pukuota Snipe</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                2017 Animados 1h 20m
+                            </h6>
+                            <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                            </p>
+                            <div
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <div class="btn-group">
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        View
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Edit
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Delete
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm text-muted small">
+                                    9 views +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img
+                            class=" card-img-top"
+                            width="100%"
+                            height="225"
+                            src="img/Ozzy (2016).jpg"
+                            preserveaspectratio="xMidYMid slice"
+                            focusable="false"
+                            role="img"
+                            aria-label="Placeholder: Thumbnail"
+                        />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Pukuota Snipe</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                2017 Animados 1h 20m
+                            </h6>
+                            <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                            </p>
+                            <div
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <div class="btn-group">
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        View
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Edit
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Delete
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm text-muted small">
+                                    9 views +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img
+                            class=" card-img-top"
+                            width="100%"
+                            height="225"
+                            src="img/Ready Player One [2018] [HD].jpg"
+                            preserveaspectratio="xMidYMid slice"
+                            focusable="false"
+                            role="img"
+                            aria-label="Placeholder: Thumbnail"
+                        />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Pukuota Snipe</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                2017 Animados 1h 20m
+                            </h6>
+                            <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                            </p>
+                            <div
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <div class="btn-group">
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        View
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Edit
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Delete
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm text-muted small">
+                                    9 views +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img
+                            class=" card-img-top"
+                            width="100%"
+                            height="225"
+                            src="img/Río 2 (2014).jpg"
+                            preserveaspectratio="xMidYMid slice"
+                            focusable="false"
+                            role="img"
+                            aria-label="Placeholder: Thumbnail"
+                        />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Pukuota Snipe</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                2017 Animados 1h 20m
+                            </h6>
+                            <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                            </p>
+                            <div
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <div class="btn-group">
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        View
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Edit
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-sm btn-outline-secondary"
+                                    >
+                                        Delete
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm text-muted small">
+                                    9 views +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-dark text-light">
+            <!-- Agradecimientos a codigofacilito. Contactos -->
+            <footer class="container p-5 d-flex">
+                <h4>Contactos</h4>
+                <ul>
+                    <li>Email: meolivares06@gmail.com</li>
+                    <li>Github: http://github.com/meolivares06</li>
+                    <li>LinkedIn: http://linkedin/mario-olivares-frontend</li>
+                    <li>Twitter: @meolivares06</li>
+                </ul>
+                <p>
+                    Agadecimienos especiales a codigofacilito.com por su aporte
+                    a la comunidad
+                </p>
+            </footer>
+        </div>
+        <script type="text/javascript" src="appCatalogo.js"></script>
+    </body>
+</html>

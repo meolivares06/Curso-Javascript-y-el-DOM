@@ -1,65 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.css" />
 
-    <title>Hello, world!</title>
+    <title>Nuevos cursos</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <span class="navbar-brand">&lt;mario_olivares/></span>
+    <!-- Mostrar Jumbotron con nombre y descripcion del sitio -->
+    <header class="app-header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary app-nav">
+            <a href="" class="navbar-brand">Obteniendo elementos</a>
         </nav>
+        <div class="jumbotron">
+            <h1 class="display-4" id="title">Titulo</h1>
+            <p class="lead" id="description">Breve descripcion</p>
+        </div>
     </header>
 
-    <main class="container mt-2">
-        <section class="row jumbo">
-            <div class="col jumbotron jumbotron-fluid p-4">
+    <div class="container my-5">
 
-                <h1 class="display-4 jumbo__title">Titulo</h1>
-                <p class="lead jumbo__description">Esto es una breve descripcion del objetivo del sitio, curso javscript DOM.</p>
-            </div>
-        </section>
-        <section class="row mb-5">
-            <form id="course-form">
-                <div class="form-group">
-                    <input type="text" name="title" id="title" class="form-control" required>
-                </div>
-                <div class="form-group">
-                    <input type="text" required name="description" id="description" class="form-control">
-                    <small id="descriptionHelp" class="form-text text-muted">
-                      Escribe una breve descripcion
-                    </small>
-                </div>
-
-                <button type="submit" id="create-course" class="btn btn-primary">Crear curso</button>
-            </form>
-        </section>
-        <section class="row list">
+        <div class="row">
             <ul class="col list-group">
-                <li class="list-group-item">Javascript</li>
-                <li class="list-group-item">CSS3</li>
-                <li class="list-group-item">HTML5</li>
-                <li class="list-group-item">RWD</li>
+                <li class="list-group-item" id="first-course">Python</li>
                 <li class="list-group-item">PHP</li>
+                <li class="list-group-item">HTML5</li>
+                <li class="list-group-item">CSS3</li>
+                <li class="list-group-item">Javascript</li>
                 <li class="list-group-item">Angular</li>
-                <li class="list-group-item">ReactJS</li>
+                <li class="list-group-item">React</li>
             </ul>
-        </section>
-    </main>
-
-    <footer class="text-muted container mt-4">
-        <div class="col">
-            <p>LinkedIn</p>
-            <p>Twitter</p>
         </div>
+
+    </div>
+
+    <!-- Agradecimientos a codigofacilito. Contactos -->
+    <footer class="container-fluid bg-dark text-light p-5">
+        <h4>Practicas del curso Javascript y el DOM.</h4>
+        <p>
+            Agadecimienos especiales a codigofacilito.com por su aporte a la comunidad
+        </p>
     </footer>
 
     <script type="text/javascript" src="app.js"></script>
